@@ -25,8 +25,8 @@ export default function About({
       <h1>About Me.</h1>
       <p>Oh look, it's another page. GLORIOUS.</p>
       <p>
-        Why is the state not persistent across pages? eg. Maximise the window
-        and then change the page.
+        Fixed persistent state but need to make it better. Too much passing
+        state around!! Use React Context.
       </p>
 
       <style jsx>{``}</style>
