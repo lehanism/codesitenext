@@ -1,9 +1,23 @@
 import Head from "next/head";
 import Layout from "../components/layout";
 
-export default function Home() {
+export default function Home({
+  setIsClosed,
+  isClosed,
+  isMaximised,
+  setIsMaximised,
+  maximise,
+  close,
+}) {
   return (
-    <Layout>
+    <Layout
+      setIsClosed={setIsClosed}
+      isClosed={isClosed}
+      isMaximised={isMaximised}
+      setIsMaximised={setIsMaximised}
+      maximise={maximise}
+      close={close}
+    >
       <Head>
         <title>Luke Lehane's Website - Home</title>
         <link rel="icon" href="/favicon.ico" />

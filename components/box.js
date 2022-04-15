@@ -1,4 +1,3 @@
-import { useState } from "react";
 import BoxHeader from "../components/box-header";
 
 export default function Box({

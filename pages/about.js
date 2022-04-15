@@ -1,9 +1,23 @@
 import Head from "next/head";
 import Layout from "../components/layout";
 
-export default function About() {
+export default function About({
+  setIsClosed,
+  isClosed,
+  isMaximised,
+  setIsMaximised,
+  maximise,
+  close,
+}) {
   return (
-    <Layout>
+    <Layout
+      setIsClosed={setIsClosed}
+      isClosed={isClosed}
+      isMaximised={isMaximised}
+      setIsMaximised={setIsMaximised}
+      maximise={maximise}
+      close={close}
+    >
       <Head>
         <title>Luke Lehane's Website - About</title>
       </Head>
