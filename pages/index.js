@@ -32,7 +32,7 @@ export default function Home({
         messing about and just used HTML, CSS and JavaScript. It was a glorious
         experience. I hope you enjoy it. Stay a while and click about.
       </p>
-      <p>Then I ruined everything by turning this into a Next JS app!</p>
+      <p>Then I ruined everything by turning this into a Next JS app! Testing to see if git works</p>
 
       <style jsx>{``}</style>
 
